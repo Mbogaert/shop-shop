@@ -8,7 +8,7 @@ import { useStoreContext } from '../../utils/GlobalState';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 
 function ProductList() {
-  const [state, dispatch] = useStoreContext();
+const [state, dispatch] = useStoreContext();
 
 const { currentCategory } = state;
 
